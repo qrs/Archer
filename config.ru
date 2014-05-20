@@ -1,6 +1,7 @@
 require 'rubygems'
-require 'sinatra'
-require 'compass'
-require './app.rb'
+require 'bundler'
+Bundler.require
 
-run Sinatra::Application
+require './app'
+
+run Web::App
