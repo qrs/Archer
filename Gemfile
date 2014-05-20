@@ -1,6 +1,13 @@
-source "https://www.rubygems.org"
+source 'https://rubygems.org'
 
-gem "sinatra"
-gem "sass"
-gem "compass"
-gem "shotgun"
+ruby '2.1.1'
+
+gem 'sinatra'
+gem 'erubis'
+gem 'unicorn'
+gem 'listen'
+gem 'sass'
+
+group :development do
+  gem 'shotgun'
+end
