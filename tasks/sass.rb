@@ -1,7 +1,7 @@
 require 'sass'
 
 namespace :sass do
-  src = 'assets/sass/style.scss'
+  src = 'dev/assets/sass/style.scss'
   out = 'public/css/style.css'
 
   desc 'Precompiles sass'
