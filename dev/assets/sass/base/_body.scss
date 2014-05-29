@@ -2,6 +2,8 @@
 @import "mixins";
 
 html, body {
+  margin: 0 auto;
+  padding: 0 auto;
 	font-family: $main-font;
 	font-weight: $regular;
 	font-size: 13px;
