@@ -10,7 +10,7 @@ namespace :assets do
   end
 
   task watch: :compile do
-    Listen.to('assets/sass'){ compile('sass') }.start
+    Listen.to('dev/assets/sass'){ compile('sass') }.start
     puts 'Listening for changes...'
     sleep
   end
